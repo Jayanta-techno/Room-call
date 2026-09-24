@@ -1,0 +1,11 @@
+{
+  "name": "webrtc-call",
+  "version": "1.0.0",
+  "description": "1:1 video call with WebRTC and a WebSocket signaling server",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
