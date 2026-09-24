@@ -3,6 +3,10 @@
 const express = require('express');
 const http = require('http');
 const { WebSocketServer } = require('ws');
+require('dotenv').config();
+dotenv.config({ path: '.env' });
+
+
 
 const app = express();
 app.use(express.static('public'));
